@@ -1,0 +1,124 @@
+.boxes {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    background-color: orange;
+    color: white;
+    height: 70px;
+    width: 200px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.box1:hover {
+    background-color: red;
+}
+
+.box2 {
+    background-color: orange;
+    color: white;
+    height: 70px;
+    width: 200px;
+    font-size: 26px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 500ms;
+    cursor: pointer;
+    
+}    
+
+.box2:hover {
+    background-color: red;
+}
+
+.box3 {
+    background-color: orange;
+    color: white;
+    height: 70px;
+    width: 200px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.box3:hover {
+    background-color: red;
+}
+.box2sub {
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.subs {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.subs:hover {
+    opacity: 1;
+}
+
+.sub1 {
+    font-size: 26px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    transition: 500ms;
+}
+
+.sub1:hover {
+    background-color: red;
+}
+
+.sub2 {
+    font-size: 26px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    transition: 500ms;
+}
+
+.sub2:hover {
+    background-color: red;
+}
+
+.sub3 {
+    font-size: 26px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    transition: 500ms;
+}
+
+.sub3:hover {
+    background-color: red;
+}

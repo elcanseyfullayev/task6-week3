@@ -1,0 +1,406 @@
+/* body {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 {
+    border: 1px solid black;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    transform: rotate(35deg);
+}
+
+.line2 {
+    border: 1px solid black;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    transform: rotate(90deg);
+}
+
+.line3 {
+    border: 1px solid black;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    transform: rotate(150deg);
+}
+
+.circle {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    top: 80px;
+    left: -20px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    top: 80px;
+    right: -20px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    bottom: 80px;
+    left: -20px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    left: 40%;
+    bottom: -50px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: pink;
+    position: absolute;
+    right: -20px;
+    bottom: 80px;
+    animation-name: anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes anim {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+  50%  {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+} */
+
+/* -------------------------------------------------- */
+
+/* Navbar */
+nav {
+    background-color: gainsboro;
+    height: 80px;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+}
+.itemshover{
+    transition: 500ms;
+    cursor: pointer;
+}
+.itemshover:hover {
+    color: rgb(107, 107, 107);
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    gap: 7px;
+    height: 37px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.cart:hover {
+    background-color: black;
+    color: white;
+}
+
+.cartitems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+/* Header2 */
+
+.header {
+    background-color: #212529;
+    height: 300px;
+    max-width: 2000px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headertext {
+    font-size: 20px;
+    color: gray;
+}
+
+/* Icons */
+.icons {
+    height: 800px;
+    max-width: 2000px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 1px solid black;
+    padding: 50px;
+    height: 800px;
+    max-width: 2000px;
+    gap: 20px;
+    align-items: center;
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 2 / 5; }
+.div5 { grid-area: 2 / 1 / 3 / 2; }
+.div6 { grid-area: 2 / 2 / 3 / 3; }
+.div7 { grid-area: 2 / 3 / 3 / 4; }
+.div8 { grid-area: 2 / 4 / 3 / 5; }
+
+.div1 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    border: 1px solid black;
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.imgtext {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+del {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 182, 46);
+}
+
+.div2 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.div3 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.div4 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+
+}
+
+.div5 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+
+}
+
+.div6 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+
+}
+
+.div7 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.div8 {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 250px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+
+.img {
+    border-radius: 10px;
+}
+
